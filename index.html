@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TRENDING</title>
+    <style>
+
+      body {
+        font-family: 'Inconsolata', monospace;
+        font-size: 100%;
+        padding: 0px;
+        margin: 10px;
+      }
+
+      #app {
+        width: 300px;
+        height: 460px;
+        margin: auto;
+        text-align: left;
+        background-color: #c2c3c4;
+        border: solid 2px black;
+        padding-top: 10px;
+        position: relative;
+      }
+
+      #container {
+        background-color: white;
+        margin: auto;
+        width: 90%;
+        height: 87%;
+        padding: auto;
+        padding-top: 40px;
+        text-align: center;
+        border: solid 2px black;
+        position: relative;
+      }
+
+      #btnBar {
+        border: solid 1px black;
+        padding: 10px;
+        width: 80%;
+        margin-right: 0;
+        background-color: black;
+        box-shadow: -8px 8px 5px #888888;
+      }
+
+      #trendings {
+        margin-top: 14px;
+      }
+
+      h1 {
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+        position: fixed;
+        width: 80%;
+        margin: auto;
+        z-index: 5;
+        background-color: white;
+        padding-left: 15px;
+      }
+
+      button {
+        text-align: center;
+        width: 30%;
+        padding: 5px;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+
+      .centerMe {
+        text-align: center;
+        margin: auto;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  </head>
+  <body>
+  <div id="app">
+    <h1>T R E N D I N G</h1>
+    <div id="container">
+      <div id="trendings"><p id="loading">Loading...</p></div>
+    </div>
+  </div>
+  <div id="btnBar" class="centerMe">
+    <div class="centerMe">
+    <button id="getStats">STATS</button>
+    <button id="getFeed">FEED</button>
+    <button id="mute">MUTE</button>
+    </div>
+  </div>
+    <script src="./client.js"></script>
+  </body>
+</html>
+
