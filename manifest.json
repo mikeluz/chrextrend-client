@@ -10,7 +10,7 @@
     "default_popup": "index.html"
   },
    "permissions": [
-    "https://chrextrend.herokuapp.com/*",
+    "https://chrextrendms.herokuapp.com/*",
     "http://localhost:3001/*"
   ]
 }

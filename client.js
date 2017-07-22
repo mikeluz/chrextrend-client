@@ -29,8 +29,8 @@ let current;
 window.addEventListener('load', function () {
 
     // URLs -- prod and local
-    // var url = 'https://chrextrend.herokuapp.com'; // prod
-    var url = 'http://localhost:3001'; // local
+    var url = 'https://chrextrendms.herokuapp.com'; // prod
+    // var url = 'http://localhost:3001'; // local
 
     [].slice.call(document.getElementsByTagName('body'))[0].style.backgroundColor = getRandomColor();
     setInterval(() => {
